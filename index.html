@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator-div">
+        <div class="display-div" id="display_div"></div>
+        <div id="reset_button_div">
+            <button id="reset_buttons">Reset</button>
+        </div>
+        <div class="button-div">
+            <button id="btn_7">7</button>
+            <button id="btn_8">8</button>
+            <button id="btn_9">9</button>
+            <button id="btn_multiplys" onclick="operation(this.id)">X</button>
+            <button id="btn_4">4</button>
+            <button id="btn_5">5</button>
+            <button id="btn_6">6</button>
+            <button id="btn_minus" onclick="operation(this.id)">-</button>
+            <button id="btn_1">1</button>
+            <button id="btn_2">2</button>
+            <button id="btn_3">3</button>
+            <button id="btn_plus" onclick="operation(this.id)">+</button>
+            <button id="btn_0">0</button>
+            <button id="btn_point.">.</button>
+            <button id="btn_equals" onclick="equal()">=</button>
+            <button id="btn_divisions" onclick="operation(this.id)">/</button>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
